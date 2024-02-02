@@ -38,7 +38,7 @@ namespace XUnitTestRepository
             // Assert
             Assert.Equal(sales.Count, result.Count());
 
-            // Add more assertions to ensure that products and tracking numbers are loaded for each sale
+
         }
 
         [Fact]
@@ -102,7 +102,7 @@ namespace XUnitTestRepository
 
             // Assert
             Assert.Null(result);
-            // Add more assertions if needed
+
         }
 
         [Fact]
